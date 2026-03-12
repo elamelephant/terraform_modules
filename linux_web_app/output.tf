@@ -1,0 +1,4 @@
+output "id" {
+  value = azurerm_linux_web_app.webapp.id
+  description = "id of linux web app"
+}
