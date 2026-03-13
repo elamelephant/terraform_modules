@@ -1,4 +1,5 @@
-#  Deploy code from a public GitHub repo
+# Deploy code from a public GitHub repo
+# Details : https://registry.terraform.io/providers/hashicorp/azurerm/4.63.0/docs/resources/app_service_source_control
 resource "azurerm_app_service_source_control" "sourcecontrol" {
   app_id             = var.webapp_id
   repo_url           = var.repo_url
