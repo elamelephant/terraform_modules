@@ -14,7 +14,7 @@ module "service_plan" {
 }
 ```
 
-## Azure linux web app Terraform Module, details : https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/resources/linux_web_app
+## Azure Linux Web App Terraform Module, details: https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/resources/linux_web_app
 
 ```hcl
 module "linux_web_app" {
@@ -42,7 +42,7 @@ module "linux_web_app" {
 }
 ```
 
-## Azure web app source control Terraform Module, details : https://registry.terraform.io/providers/hashicorp/azurerm/4.63.0/docs/resources/app_service_source_control
+## Azure web app source control Terraform Module, details: https://registry.terraform.io/providers/hashicorp/azurerm/4.63.0/docs/resources/app_service_source_control
 
 ```hcl
 module "sourcecontrol" {
@@ -56,4 +56,4 @@ module "sourcecontrol" {
 
 }
 ```
-> ⚠️ **Note:** “Please refer the example folder to get more information about the sample code”
+> ⚠️ **Note:** “Please refer to the example folder to get more information about the sample code”
