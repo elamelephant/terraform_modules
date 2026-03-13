@@ -56,4 +56,4 @@ module "sourcecontrol" {
 
 }
 ```
-> “Please refer the example folder for more the sameple code”
+> ⚠️ **Note:** “Please refer the example folder to get more information about the sample code”
