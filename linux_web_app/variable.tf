@@ -1,5 +1,5 @@
 variable "location" {
-  description = "Azure location."
+  description = "Azure webapp service location."
   type        = string
 }
 
@@ -9,7 +9,7 @@ variable "service_plan_id" {
 }
 
 variable "web_app_name" {
-  description = "ID of the Service Plan that hosts the App Service."
+  description = "webservice app name."
   type        = string
 }
 
@@ -26,7 +26,7 @@ variable "https_only" {
 }
 
 variable "resource_group_name" {
-  description = "Resource group name."
+  description = "Azure Resource group name."
   type        = string
 }
 

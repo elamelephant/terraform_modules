@@ -1,25 +1,25 @@
 variable "sku_name" {
-  description = "ID of the Service Plan that hosts the App Service."
+  description = "Stock Keeping Unit selection for webapp service."
   type        = string
 }
 
 variable "os_type" {
-  description = "os_type"
+  description = "os_type either Linux or Windows"
   type        = string
 }
 
 variable "plan_name" {
-  description = "Plan name"
+  description = "Service Plan name"
   type        = string
 }
 
 variable "group_name" {
-  description = "group name"
+  description = "Azure group name"
   type        = string
 }
 
 variable "location" {
-  description = "service plan location"
+  description = "Azure web service plan location"
   type        = string
 }
 
