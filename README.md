@@ -12,6 +12,7 @@ module "service_plan" {
   os_type    = <Windows or Linux or Containers > <string>
   sku_name   = <Free/Shared (F1, D1), Basic (B1, B2, B3), Standard (S1, S2, S3), Premium (P1v2–P3v2, P0v3–P3v3, P1v4–P3v4), and Isolated (I1v2–I6v2) > <string>
 }
+```
 
 ## Azure linux web app Terraform Module, details : https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/resources/linux_web_app
 
@@ -39,6 +40,7 @@ module "linux_web_app" {
     SCM_DO_BUILD_DURING_DEPLOYMENT = true # It enables automatic dependency installation
   }
 }
+```
 
 ## Azure web app source control Terraform Module, details : https://registry.terraform.io/providers/hashicorp/azurerm/4.63.0/docs/resources/app_service_source_control
 
@@ -53,5 +55,5 @@ module "sourcecontrol" {
   runtime_version = <version of runtime stack> <string>
 
 }
-
+```
 > “Please refer the example folder for more the sameple code”
