@@ -1,4 +1,5 @@
 # Create the Linux web app service
+# Detail : https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/resources/linux_web_app
 resource "azurerm_linux_web_app" "webapp" {
   name                  = var.web_app_name
   location              = var.location
