@@ -16,7 +16,7 @@ resource "azurerm_linux_web_app" "webapp" {
       always_on           = lookup(site_config.value, "always_on", null)
       app_command_line    = lookup(site_config.value, "app_command_line", null)
       #minimum_tls_version = lookup(site_config.value, "minimum_tls_version", lookup(site_config.value, "min_tls_version", "1.2"))
-       #minimum_tls_version = lookup(site_config.value, "minimum_tls_version", "1.2")
+      minimum_tls_version = lookup(site_config.value, "minimum_tls_version", "1.2")
       ftps_state          = lookup(site_config.value, "ftps_state", "Disabled")
 
       dynamic "application_stack" {
